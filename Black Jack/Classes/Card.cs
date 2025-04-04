@@ -77,6 +77,11 @@ namespace Back_Jack
             }
         }
 
+        //public Card CreateCard(Suits suit, FaceValues faceValue)
+        //{
+        //    return new Card(suit, faceValue);
+        //} dit is onnodig???
+
         public override string ToString()
         {
             return this.value + "of" + this.suit;
